@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		6B6687082223CF9E009D74DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6687072223CF9E009D74DB /* AppDelegate.swift */; };
-		6B66870A2223CF9E009D74DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6687092223CF9E009D74DB /* ViewController.swift */; };
 		6B66870D2223CF9E009D74DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B66870B2223CF9E009D74DB /* Main.storyboard */; };
 		6B6687102223CF9F009D74DB /* FamilyTreeBrianW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B66870E2223CF9F009D74DB /* FamilyTreeBrianW.xcdatamodeld */; };
 		6B6687122223CF9F009D74DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6687112223CF9F009D74DB /* Assets.xcassets */; };
 		6B6687152223CF9F009D74DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6687132223CF9F009D74DB /* LaunchScreen.storyboard */; };
+		6BDC79C52227E756007C2323 /* PandaPiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79C42227E756007C2323 /* PandaPiedViewController.swift */; };
+		6BDC79CB2227E7FC007C2323 /* PaternalGrandSireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79CA2227E7FC007C2323 /* PaternalGrandSireViewController.swift */; };
+		6BDC79CD2227E812007C2323 /* DameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79CC2227E812007C2323 /* DameViewController.swift */; };
+		6BDC79CF2227E81C007C2323 /* SireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79CE2227E81C007C2323 /* SireViewController.swift */; };
+		6BDC79D12227E83D007C2323 /* PaternalGrandDameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79D02227E83D007C2323 /* PaternalGrandDameViewController.swift */; };
+		6BDC79D32227E84F007C2323 /* MaternalGrandSireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79D22227E84F007C2323 /* MaternalGrandSireViewController.swift */; };
+		6BDC79D52227E865007C2323 /* MaternalGrandDameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC79D42227E865007C2323 /* MaternalGrandDameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B6687042223CF9E009D74DB /* FamilyTreeBrianW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyTreeBrianW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6687072223CF9E009D74DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B6687092223CF9E009D74DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B66870C2223CF9E009D74DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B66870F2223CF9F009D74DB /* FamilyTreeBrianW.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FamilyTreeBrianW.xcdatamodel; sourceTree = "<group>"; };
 		6B6687112223CF9F009D74DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B6687142223CF9F009D74DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B6687162223CF9F009D74DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDC79C42227E756007C2323 /* PandaPiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaPiedViewController.swift; sourceTree = "<group>"; };
+		6BDC79CA2227E7FC007C2323 /* PaternalGrandSireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaternalGrandSireViewController.swift; sourceTree = "<group>"; };
+		6BDC79CC2227E812007C2323 /* DameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DameViewController.swift; sourceTree = "<group>"; };
+		6BDC79CE2227E81C007C2323 /* SireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SireViewController.swift; sourceTree = "<group>"; };
+		6BDC79D02227E83D007C2323 /* PaternalGrandDameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaternalGrandDameViewController.swift; sourceTree = "<group>"; };
+		6BDC79D22227E84F007C2323 /* MaternalGrandSireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaternalGrandSireViewController.swift; sourceTree = "<group>"; };
+		6BDC79D42227E865007C2323 /* MaternalGrandDameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaternalGrandDameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +68,14 @@
 		6B6687062223CF9E009D74DB /* FamilyTreeBrianW */ = {
 			isa = PBXGroup;
 			children = (
+				6BDC79C42227E756007C2323 /* PandaPiedViewController.swift */,
+				6BDC79CE2227E81C007C2323 /* SireViewController.swift */,
+				6BDC79CC2227E812007C2323 /* DameViewController.swift */,
+				6BDC79CA2227E7FC007C2323 /* PaternalGrandSireViewController.swift */,
+				6BDC79D02227E83D007C2323 /* PaternalGrandDameViewController.swift */,
+				6BDC79D22227E84F007C2323 /* MaternalGrandSireViewController.swift */,
+				6BDC79D42227E865007C2323 /* MaternalGrandDameViewController.swift */,
 				6B6687072223CF9E009D74DB /* AppDelegate.swift */,
-				6B6687092223CF9E009D74DB /* ViewController.swift */,
 				6B66870B2223CF9E009D74DB /* Main.storyboard */,
 				6B6687112223CF9F009D74DB /* Assets.xcassets */,
 				6B6687132223CF9F009D74DB /* LaunchScreen.storyboard */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6687102223CF9F009D74DB /* FamilyTreeBrianW.xcdatamodeld in Sources */,
-				6B66870A2223CF9E009D74DB /* ViewController.swift in Sources */,
+				6BDC79CF2227E81C007C2323 /* SireViewController.swift in Sources */,
+				6BDC79D32227E84F007C2323 /* MaternalGrandSireViewController.swift in Sources */,
 				6B6687082223CF9E009D74DB /* AppDelegate.swift in Sources */,
+				6BDC79CD2227E812007C2323 /* DameViewController.swift in Sources */,
+				6BDC79D12227E83D007C2323 /* PaternalGrandDameViewController.swift in Sources */,
+				6BDC79C52227E756007C2323 /* PandaPiedViewController.swift in Sources */,
+				6BDC79D52227E865007C2323 /* MaternalGrandDameViewController.swift in Sources */,
+				6BDC79CB2227E7FC007C2323 /* PaternalGrandSireViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
